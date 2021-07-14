@@ -19,12 +19,13 @@ header{
     color: white;
     width: 80%;
     padding: 40px 0%;
+    margin: 20px
 }
 
 .banner-details h1{
     font-size: 50px;
     font-weight: bold;
-
+    margin-top: -20px;
 }
 .banner-details a{
     font-family: sans-serif;
@@ -35,56 +36,44 @@ header{
 }
 .banner-details a:hover{
     background-color: yellow;
-    transition: 0.8s;
-    color:black;
-    
+    transition: 0.9s;
+    color:black; 
 }
 .banner_image{
     height: 335px;
     width: 80%;
     padding: 40px 0%;
+    margin: 2px;
 }
 .banner_image img{
     height: 100%;
-    /* width: 556px; */
-    /* margin-top: 153px; */
-    /* margin:40px 10%; */
-    /* margin-right: 140px; */
-
 }
 
-/* -------about about players------- */
+/* -------about players------- */
 
 .about-players{
 display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-row-gap: 10px;
-
 }
 .card{
 background-color: whitesmoke;
-/* height: 474px; */
 width: 330px;
 margin-left: 40px;
-
-margin-top: 70px;
+margin-top: 40px;
 border-radius: 0px;
-padding: 15px;
-
-    
+padding: 15px; 
+margin-left: 25px;   
 }
-
 .card-details img{
     height: 256px;
-    width: 300px;
-  
+    width: 300px; 
     margin: 15px;
     
 }
 .card-title{
     margin: 15px;
 }
-
 .card-title h1{
     width: 300px;
     height: 40px;
@@ -93,8 +82,68 @@ padding: 15px;
 
 .card-title p{
     width: 300px;
-    height: 104px;
-   
+    height: 104px;   
+}
+/* ---------video album ------------- */
+.video_album{
+    width: 90%;
+    padding: 10px 5%;
+    display: grid;
+    justify-content: center;
+    background-color: white;
+}
+.video_album h1{
+    padding: 50px 5%;
+    display: grid;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}
+.video{
+    height: 315px;
+    width: 560px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} 
+
+/* ---------contact section------------- */
+.contact{
+    width: 90%;
+    padding: 30px 5%;
+    display: grid;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.contact h1{
+    padding: 20px 5%;
+    display: grid;
+    justify-content: center;
+    color:black;
+    font-size: 50px;
+}
+.contact input{
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 5px 0;
+    border-radius: 15px;
+}
+.contact textarea{
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 35px
+}
+.contact button{
+    border: 1px solid black;
+    font-size: 20px;
+    margin: 10px 0;
+    border-radius: 20px;
+    background-color: tomato;
+}
+.contact button:hover{
+    cursor: progress;
+    background-color: yellow;
+    transition: 0.9s;
 }
 
 /* ------footer---- */
@@ -112,21 +161,20 @@ footer img{
     width: 350px;
     height: 150px;
 }
-.icon{
+.social-icon{
     text-align: center;
     font-size: 25px;
     margin: 10px 0;
 }
-.icon a{
+.social-icon a{
     text-decoration: none;
-    color: gray;
+    color: rgb(194, 194, 194);
 }
 .copyright{
     color: black;
     text-align: center;
     font-size: 20px;
 }
-
 
 /* -----Media query----- */
 
